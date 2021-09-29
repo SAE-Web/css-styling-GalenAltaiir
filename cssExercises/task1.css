@@ -1,0 +1,18 @@
+main{
+    background-color: gray;
+}
+
+#paragraph{
+    font-size: calc(20px + 0.2em);
+}
+
+.list-element{
+    font-family: 'Montserrat', sans-serif;
+}
+.list-element:nth-child(even){
+    background-color: blue;
+}
+
+.list-element:hover{
+    cursor: pointer;
+}
