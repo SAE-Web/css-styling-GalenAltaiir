@@ -1,4 +1,35 @@
+main{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
 li{
     list-style-type: none;
     padding: 5px;
 }
+
+li:nth-child(odd){
+    background-color: #AD0903;
+}
+
+li:nth-child(even){
+    background-color: #E00D05;
+}
+
+ul:hover > li {
+    opacity: 0.2;
+    transition: all 0.3s;
+  
+  }
+  
+ul li:hover {
+    transition: all 0.3s;
+    opacity: 1;
+    padding: 15px;
+    border-left: 10px solid #E64F49;
+  }
